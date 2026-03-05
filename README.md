@@ -126,14 +126,14 @@ tab-chroma color on|off
 
 6 themes are bundled:
 
-| Name | Description |
-|------|-------------|
-| default | Clean blue/green/orange |
-| ocean | Calm oceanic palette |
-| neon | Vibrant cyberpunk |
-| pastel | Gentle, easy on the eyes |
-| solarized | Classic Solarized |
-| dracula | Dracula editor colors |
+| Theme | Working | Done | Attention | Permission | Description |
+|-------|:-------:|:----:|:---------:|:----------:|-------------|
+| **default** | ![](https://img.shields.io/badge/-%20-0064C8?style=flat-square) | ![](https://img.shields.io/badge/-%20-22B450?style=flat-square) | ![](https://img.shields.io/badge/-%20-FFA028?style=flat-square) | ![](https://img.shields.io/badge/-%20-DC3C28?style=flat-square) | Clean blue/green/orange |
+| **ocean** | ![](https://img.shields.io/badge/-%20-0050A0?style=flat-square) | ![](https://img.shields.io/badge/-%20-00B4AA?style=flat-square) | ![](https://img.shields.io/badge/-%20-F0B428?style=flat-square) | ![](https://img.shields.io/badge/-%20-F0503C?style=flat-square) | Calm oceanic palette |
+| **neon** | ![](https://img.shields.io/badge/-%20-0096FF?style=flat-square) | ![](https://img.shields.io/badge/-%20-00FF64?style=flat-square) | ![](https://img.shields.io/badge/-%20-FF3296?style=flat-square) | ![](https://img.shields.io/badge/-%20-FF1E1E?style=flat-square) | Vibrant cyberpunk |
+| **pastel** | ![](https://img.shields.io/badge/-%20-82AADC?style=flat-square) | ![](https://img.shields.io/badge/-%20-82C896?style=flat-square) | ![](https://img.shields.io/badge/-%20-F0B48C?style=flat-square) | ![](https://img.shields.io/badge/-%20-DC8C8C?style=flat-square) | Gentle, easy on the eyes |
+| **solarized** | ![](https://img.shields.io/badge/-%20-268BD2?style=flat-square) | ![](https://img.shields.io/badge/-%20-859900?style=flat-square) | ![](https://img.shields.io/badge/-%20-B58900?style=flat-square) | ![](https://img.shields.io/badge/-%20-DC322F?style=flat-square) | Classic Solarized |
+| **dracula** | ![](https://img.shields.io/badge/-%20-BD93F9?style=flat-square) | ![](https://img.shields.io/badge/-%20-50FA7B?style=flat-square) | ![](https://img.shields.io/badge/-%20-FFB86C?style=flat-square) | ![](https://img.shields.io/badge/-%20-FF5555?style=flat-square) | Dracula editor colors |
 
 ```bash
 tab-chroma theme list
