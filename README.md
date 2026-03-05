@@ -222,13 +222,17 @@ All escape sequences write to `/dev/tty` (not stdout) so Claude Code's hook runn
 
 ## Uninstalling
 
+**curl / manual install:**
 ```bash
 tab-chroma uninstall
-# or
-bash ~/.claude/hooks/tab-chroma/../uninstall.sh
 ```
 
-For Homebrew installs, also run `brew uninstall tab-chroma`.
+**Homebrew install:**
+```bash
+tab-chroma uninstall
+brew uninstall tab-chroma
+brew untap JCPetrelli/tab-chroma
+```
 
 ## Migration from tab-tint
 
