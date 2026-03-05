@@ -6,9 +6,6 @@ class TabChroma < Formula
   license "MIT"
   version "1.0.0"
 
-  # No compilation needed — pure bash + Python 3 (macOS stdlib)
-  bottle :unneeded
-
   def install
     # Install script and themes to share dir
     (share/"tab-chroma").install "tab-chroma.sh", "themes", "completions", "VERSION"
