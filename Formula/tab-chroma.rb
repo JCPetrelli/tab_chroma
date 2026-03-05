@@ -11,9 +11,9 @@ class TabChroma < Formula
     (share/"tab-chroma").install "tab-chroma.sh", "themes", "completions", "VERSION"
     chmod 0755, share/"tab-chroma"/"tab-chroma.sh"
 
-    # Shell completions
-    bash_completion.install "completions/tab-chroma.bash" => "tab-chroma"
-    fish_completion.install "completions/tab-chroma.fish"
+    # Shell completions (reference from share since completions dir was moved above)
+    bash_completion.install share/"tab-chroma"/"completions"/"tab-chroma.bash" => "tab-chroma"
+    fish_completion.install share/"tab-chroma"/"completions"/"tab-chroma.fish"
 
     # Wrapper script in bin/ — sets SHARE_DIR, DATA_DIR, and HOOK_CMD
     (bin/"tab-chroma").write <<~EOS
