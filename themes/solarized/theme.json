@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "solarized",
+  "display_name": "Solarized",
+  "version": "1.0.0",
+  "description": "Classic Solarized color palette",
+  "author": {
+    "name": "Jacopo Castellano"
+  },
+  "states": {
+    "session.start": {
+      "r": -1, "g": -1, "b": -1,
+      "action": "reset",
+      "label": "Session started"
+    },
+    "working": {
+      "r": 38, "g": 139, "b": 210,
+      "label": "Claude is working"
+    },
+    "done": {
+      "r": 133, "g": 153, "b": 0,
+      "label": "Ready for input"
+    },
+    "attention": {
+      "r": 181, "g": 137, "b": 0,
+      "label": "Needs attention"
+    },
+    "permission": {
+      "r": 220, "g": 50, "b": 47,
+      "label": "Needs approval"
+    }
+  }
+}

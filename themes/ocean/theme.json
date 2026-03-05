@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "ocean",
+  "display_name": "Ocean",
+  "version": "1.0.0",
+  "description": "Calm, oceanic color palette",
+  "author": {
+    "name": "Jacopo Castellano"
+  },
+  "states": {
+    "session.start": {
+      "r": -1, "g": -1, "b": -1,
+      "action": "reset",
+      "label": "Session started"
+    },
+    "working": {
+      "r": 0, "g": 80, "b": 160,
+      "label": "Claude is working"
+    },
+    "done": {
+      "r": 0, "g": 180, "b": 170,
+      "label": "Ready for input"
+    },
+    "attention": {
+      "r": 240, "g": 180, "b": 40,
+      "label": "Needs attention"
+    },
+    "permission": {
+      "r": 240, "g": 80, "b": 60,
+      "label": "Needs approval"
+    }
+  }
+}

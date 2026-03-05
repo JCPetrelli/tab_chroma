@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "pastel",
+  "display_name": "Pastel",
+  "version": "1.0.0",
+  "description": "Gentle, easy-on-eyes pastel palette",
+  "author": {
+    "name": "Jacopo Castellano"
+  },
+  "states": {
+    "session.start": {
+      "r": -1, "g": -1, "b": -1,
+      "action": "reset",
+      "label": "Session started"
+    },
+    "working": {
+      "r": 130, "g": 170, "b": 220,
+      "label": "Claude is working"
+    },
+    "done": {
+      "r": 130, "g": 200, "b": 150,
+      "label": "Ready for input"
+    },
+    "attention": {
+      "r": 240, "g": 180, "b": 140,
+      "label": "Needs attention"
+    },
+    "permission": {
+      "r": 220, "g": 140, "b": 140,
+      "label": "Needs approval"
+    }
+  }
+}

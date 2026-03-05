@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "neon",
+  "display_name": "Neon",
+  "version": "1.0.0",
+  "description": "Vibrant, cyberpunk color palette",
+  "author": {
+    "name": "Jacopo Castellano"
+  },
+  "states": {
+    "session.start": {
+      "r": -1, "g": -1, "b": -1,
+      "action": "reset",
+      "label": "Session started"
+    },
+    "working": {
+      "r": 0, "g": 150, "b": 255,
+      "label": "Claude is working"
+    },
+    "done": {
+      "r": 0, "g": 255, "b": 100,
+      "label": "Ready for input"
+    },
+    "attention": {
+      "r": 255, "g": 50, "b": 150,
+      "label": "Needs attention"
+    },
+    "permission": {
+      "r": 255, "g": 30, "b": 30,
+      "label": "Needs approval"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "dracula",
+  "display_name": "Dracula",
+  "version": "1.0.0",
+  "description": "Dracula editor theme colors",
+  "author": {
+    "name": "Jacopo Castellano"
+  },
+  "states": {
+    "session.start": {
+      "r": -1, "g": -1, "b": -1,
+      "action": "reset",
+      "label": "Session started"
+    },
+    "working": {
+      "r": 189, "g": 147, "b": 249,
+      "label": "Claude is working"
+    },
+    "done": {
+      "r": 80, "g": 250, "b": 123,
+      "label": "Ready for input"
+    },
+    "attention": {
+      "r": 255, "g": 184, "b": 108,
+      "label": "Needs attention"
+    },
+    "permission": {
+      "r": 255, "g": 85, "b": 85,
+      "label": "Needs approval"
+    }
+  }
+}

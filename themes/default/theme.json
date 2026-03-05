@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "default",
+  "display_name": "Default",
+  "version": "1.0.0",
+  "description": "Clean blue/green/orange color scheme",
+  "author": {
+    "name": "Jacopo Castellano"
+  },
+  "states": {
+    "session.start": {
+      "r": -1, "g": -1, "b": -1,
+      "action": "reset",
+      "label": "Session started"
+    },
+    "working": {
+      "r": 0, "g": 100, "b": 200,
+      "label": "Claude is working"
+    },
+    "done": {
+      "r": 34, "g": 180, "b": 80,
+      "label": "Ready for input"
+    },
+    "attention": {
+      "r": 255, "g": 160, "b": 40,
+      "label": "Needs attention"
+    },
+    "permission": {
+      "r": 220, "g": 60, "b": 40,
+      "label": "Needs approval"
+    }
+  }
+}
